@@ -1,0 +1,99 @@
+/* .coins {
+  padding: 80px 0px;
+} */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 20%);
+  overflow: hidden;
+}
+
+/* Zebra striping */
+tr:nth-of-type(odd) {
+  background: #eee;
+}
+tr {
+  cursor: pointer;
+}
+th {
+  background: #f5d137;
+  color: white;
+  font-weight: bold;
+}
+
+td,
+th {
+  padding: 30px 20px;
+  text-align: left;
+  font-size: 24px;
+  font-weight: 600;
+}
+th {
+  text-transform: uppercase;
+}
+.first__td {
+  display: flex;
+  align-items: center;
+}
+.first__td span {
+  margin-left: 10px;
+}
+.coins__search__input {
+  margin-bottom: 50px;
+}
+.coins__search__input input {
+  width: 100%;
+  border: 1px solid #f5d137;
+  padding: 30px 20px;
+  font-size: 24px;
+  border-radius: 5px;
+  outline: none;
+}
+@media only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Force table to not be like tables anymore */
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
+  }
+
+  /* Hide table headers (but not display: none;, for accessibility) */
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  tr {
+    border: 1px solid #ccc;
+  }
+
+  td {
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 50%;
+  }
+
+  td:before {
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+    /* Label the data */
+    content: attr(data-column);
+
+    color: #000;
+    font-weight: bold;
+  }
+}

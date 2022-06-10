@@ -1,0 +1,31 @@
+.coin__name {
+  font-size: 40px;
+  margin: 20px;
+}
+.description {
+  font-size: 18px;
+}
+.market__data {
+  padding: 30px 0px 80px;
+  display: flex;
+  align-items: center;
+}
+.market__data h5 {
+  font-size: 23px;
+  line-height: normal;
+  font-weight: bold;
+  padding: 0px 60px 0px 20px;
+  border-left: 2px solid darkgray;
+}
+.coin__image__name__wrapper {
+  display: flex;
+  padding: 20px 0px;
+  justify-content: space-between;
+  align-items: center;
+}
+.coin__image__name__wrapper img {
+  height: 80px;
+}
+.title__wrapper {
+  display: flex;
+}

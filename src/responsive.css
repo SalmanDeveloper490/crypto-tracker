@@ -1,0 +1,133 @@
+@media only screen and (max-width: 767px) {
+  body .chart__buttons {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+  }
+  body .market__data {
+    display: block;
+  }
+  .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-3 {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+  body .exchangeTitle {
+    font-size: 20px;
+  }
+  body .coin__image__name__wrapper {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .title__wrapper {
+    order: 1;
+  }
+  .button__wrapper {
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  body .drawer__container h2 {
+    font-size: larger;
+  }
+  body .drawer__container {
+    width: 90vw;
+    padding: 80px 20px;
+  }
+  .mobile__user {
+    margin-top: -7px;
+    margin-right: 20px;
+  }
+  body .cancel-icon {
+    margin-top: 20px;
+  }
+  body .theme-toggle {
+    margin-left: 0px;
+    position: absolute;
+    top: 25%;
+  }
+  body .banner .container {
+    margin-bottom: 0px;
+  }
+  body .banner {
+    height: auto;
+    padding: 0px;
+  }
+  body .banner__title {
+    font-size: 35px;
+  }
+  body .banner__text {
+    font-size: 20px;
+  }
+  body .carousel__price p {
+    font-size: 20px;
+  }
+  table td {
+    padding-left: 0px;
+    text-align: center;
+  }
+  .first__td {
+    justify-content: center;
+  }
+  .container,
+  .dark {
+    padding: 50px 20px;
+  }
+  .form {
+    width: auto;
+    margin: 80px 20px;
+  }
+  .section__title {
+    font-size: 30px;
+  }
+  .coin__details {
+    padding: 0px !important;
+  }
+  body .global__stats__wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 50px;
+  }
+  body .global__stats {
+    padding: 0px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 8px 6px -6px rgb(0 0 0 / 17%);
+  }
+}
+
+/* PORTRAIT IPAD */
+@media only screen and (min-width: 768px) and (max-width: 1194px) and (orientation: portrait) {
+  body .market__data h5 {
+    font-size: 18px;
+  }
+  body .chart__buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    gap: 20px;
+  }
+  table td {
+    padding-left: 0px;
+    text-align: center;
+  }
+  .first__td {
+    justify-content: center;
+  }
+  body .banner .container {
+    margin-bottom: 0px;
+  }
+  body .banner {
+    height: auto;
+    padding: 0px;
+  }
+  .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-3 {
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+  body .exchangeTitle {
+    font-size: 20px;
+  }
+}

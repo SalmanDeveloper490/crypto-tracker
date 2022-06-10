@@ -1,0 +1,43 @@
+.avatar {
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: -2px;
+  cursor: pointer;
+}
+.drawer__container {
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0px;
+}
+body .picture {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+  object-fit: contain;
+  cursor: pointer;
+}
+.drawer__container h2 {
+  font-size: 1.2vw;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.watchlist {
+  background: gray;
+  height: 70vh;
+  overflow-y: scroll;
+  width: 90%;
+  padding: 15px;
+  margin-top: 50px;
+  border-radius: 8px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #fff;
+}
+body .logout {
+  width: 90%;
+  background: gold;
+  font-size: 16px;
+}

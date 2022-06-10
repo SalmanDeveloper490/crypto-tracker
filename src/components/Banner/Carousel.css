@@ -1,0 +1,22 @@
+.carousel__image {
+  height: 80px;
+  margin-bottom: 10px;
+  margin-right: 12px;
+}
+.carousel__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.carousel__wrapper span {
+  color: #fff;
+  padding: 0px 5px;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+.carousel__price p {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 35px;
+  text-align: center;
+}
